@@ -1,3 +1,7 @@
     To run this program execute main.py. To test the move generation function pass generate_board a list of strings representing a board and save the output to a variable.
 Next pass the variable you just saved into the move_pieces function allong with whos move you want to see, either 'w' or 'b'. This will return a list of new boards. 
 To look at the boards you must pass each board into the print board function. The output will be in the terminal.
+
+Update:
+    now the program runs oskaplayer in main(). provide it a string for its states and will produce a new string formatted the same as the one that it was given except this one has made the best move possible in the 
+    given search space for the specified color. You can print board if you would like with classes.print_board(board), just provide a board object as the parameter.
