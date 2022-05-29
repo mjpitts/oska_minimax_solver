@@ -1,0 +1,3 @@
+    To run this program execute main.py. To test the move generation function pass generate_board a list of strings representing a board and save the output to a variable.
+Next pass the variable you just saved into the move_pieces function allong with whos move you want to see, either 'w' or 'b'. This will return a list of new boards. 
+To look at the boards you must pass each board into the print board function. The output will be in the terminal.
